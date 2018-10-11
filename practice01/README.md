@@ -1,4 +1,4 @@
-#practice00
+#practice01
 
 #env
 Mac book
@@ -14,7 +14,7 @@ run binary on local
 ## How to 
 
 ```
-$ docker built -t practice01 .
+$ docker build -t practice01 .
 $ docker run practice01
 $ docker cp CONTAINER_ID:/go/src/github.com/Laughingkitten/practice01/hello ./
 
